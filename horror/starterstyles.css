@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    background-color: #1a0a31;
+    /* color: white; */
+    overflow-x:hidden;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(245, 252, 252, 0.51);
+    padding-left: 2%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: green;
+}
+
+nav li {
+    margin-left: 20px;
+    margin: 2%;
+}
+
+
+nav > ul{
+display:flex;
+flex-direction: row;
+}
+
+nav > ul a {
+    color:aquamarine;
+    margin: 2%;
+    width: fit-content;
+}
+
+ul {
+    list-style: none;
+}
+
+/* nav, main > section {
+    overflow: auto;
+} */
+
+/*
+
+main > section, main > footer {
+    min-height: 100vh;
+} */
+
+/* Style the nav bar */
+/* #nav {
+    display: flex;
+    /* position: fixed;
+    align-items: baseline;
+    padding: 1em;
+    color: #eee;
+    background-color: rgba(250, 235, 235, 0.712);
+*/ 
+/* }
+
+ul {
+    flex-direction: row;
+
+} */
+/* nav ul a{
+    display: flex;
+    flex-direction: row;
+    color:rgb(68, 212, 116);
+    list-style: none;
+}
+
+nav a {
+    color: #eee;
+}
+
+nav ul a:hover {
+    color: pink;
+} */
+
+/* #raymond-scott {
+    background-color: #26B63E;
+    background-image: url(images/scott-1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: #fff;
+} */
+
+/* #raymond-scott > div {
+    position: relative;
+    left: -120px;
+    top: 120px;
+} */
+
+/* #raymond-scott h2, #raymond-scott p {
+    margin: 0;
+    text-shadow: 0 0 20px #000000;
+} */
+
+
+/* Create some cards in this section */
+/* #robert-moog {
+    background-color: #26323f;
+} */
+
+/* #robert-moog ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+} */
+
+/* #robert-moog > h2 {
+    margin: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: #eee;
+} */
+
+/* .card {
+    width: 400px;
+    margin: 1em;
+    background-color: #eee;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+} */
+
+/* .card img {
+    width: 100%;
+} */
+
+/* .card h3 {
+    font-size: 2em;
+}
+
+.card h3, .card p {
+    margin: 1rem;
+}
+
+#wendy-carlos {
+    background-color: #5856D6;
+    background-image: url(images/carlos-0.jpg);
+    background-size: cover;
+}
+
+#wendy-carlos > div {
+    background-color:rgba(255, 255, 255, 0.65);
+    padding: 2em;
+    width: 75%;
+    max-width: 500px;
+}
+
+#wendy-carlos h2 {
+    font-size: 4em;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+/* Style this */
+/* #suzanne-ciani {
+    background-color: #461c3b;
+    display: flex;
+    color: #fff;
+    background-image: url(images/sound-texture.jpg);
+    background-size: cover;
+}
+
+#suzanne-ciani > div {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+#suzanne-ciani h2, #suzanne-ciani p {
+    margin: 0 0 1rem 0;
+}
+
+#suzanne-ciani h2 {
+    font-size: 2em;
+}
+
+#suzanne-ciani > div > div:nth-child(1) {
+    flex: 3;
+    margin: 0 2em 0 0;
+}
+
+#suzanne-ciani > div > div:nth-child(2) {
+    flex: 2;
+}
+
+#suzanne-ciani > div img {
+    width: 100%;
+    box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+
+#contact {
+    background-color: #FF9500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact > form {
+    display: flex;
+}
+
+#contact > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 1em 0;
+}
+
+label span {
+    margin: 1em 0;
+}
+
+input, textarea {
+    border: 1px solid #000;
+    padding: 0.5em;
+    margin: 0 2em 0 0;
+    width: 20em;
+    font-size: 1em;
+}
+
+textarea {
+    height: 9em;
+    margin: 0 0 0 0;
+}
+
+form button {
+    width: auto;
+    font-size: 1em;
+    margin: 1em 0;
+    align-self: flex-end;
+    padding: 0.5em 1em;
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+} */ 
