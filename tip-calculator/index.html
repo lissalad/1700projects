@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h2>Tip Calculator</h2>
+        </header>
+        <main>
+            <div id="inputs">
+                <label>Bill: <input id="bill" type="number" placeholders="bill price"></label>
+                <label>Tip %: <input id="tip" type="number" placeholders="tip percent"></label>
+                <label>Number of people: <input id="people" type="number" placeholders="people number"></label>
+            </div>
+            <div id="outputs">
+                <!-- TIP AND TOTAL -->
+                <p id="show-tip" class='display-tip'> <!--DISPLAYS TIP--> </p>
+                <p id="show-total" class='display-total'> <!--DISPLAYS TOTAL--> </p>
+                <p id="show-per-person" class='display-per-person'> <!--DISPLAYS PER PERSON--> </p>
+            </div>
+        </main>
+    <footer>
+        <script src="scripts.js" type="module"></script>
+    </footer>
+    </body>
+</html>

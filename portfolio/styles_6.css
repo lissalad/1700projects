@@ -1,0 +1,141 @@
+h1 {
+    font-family: Optima;
+    color: rgb(255, 249, 249);
+    width: fit-content;
+    padding: 40px 20px 40px 20px;
+    margin:0;
+
+    background-color:rgb(38, 125, 145);
+}
+
+header {
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+small {
+    display:flex;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 2.9%;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    justify-content:space-evenly;
+    flex-direction: row;
+    font-size: 120%;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+#skills div {
+    text-align: center;
+    align-self: center;
+}
+
+#skills li {
+    text-align: left;
+    width: 300%;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    margin: auto;
+}
+
+#aboutme figure {
+    width: 200px;
+}
+
+#aboutmetext {
+    min-width: 260px;
+    max-width: 260px;
+    /* width: 240px;  */
+}
+
+#socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; 
+}
+
+#socialmedia ul {
+    list-style-type:none;
+    text-align:center;
+    line-height: 40px;
+    padding: 20px;
+    color:rgba(0, 133, 126, 0.253);
+    border: 8px beige groove;
+}
+
+
+footer, nav {
+    background-color: rgba(0, 133, 126, 0.253);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    line-height: 50px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+header, footer {
+    display: flex;
+    margin: 23px;
+    border: beige 13px outset;
+    width: 100%;
+}
+
+a, a:visited {
+    color: rgb(168, 70, 70);
+}
+
+section {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 100% 40px 100%;
+    margin: 40px 0px 40px 0;
+    background-color:rgba(65, 125, 133, 0.295);
+    
+}
+
+body {  /* everything */
+    background-color:rgb(197, 242, 248);
+}
+
+h2, p, ul, nav, figcaption {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    border: 13px beige groove;
+}
+
+figcaption {
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+

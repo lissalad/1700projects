@@ -1,0 +1,123 @@
+header {
+    font-size: 150%;
+    display: flex;
+    padding-left: 40px;
+    font-family: Optima;
+    color: beige;
+    margin: 60px;
+
+    background-color:rgb(40, 93, 105);
+}
+
+small {
+    display: flex;
+    padding-left: 270px;
+    margin-top: -45px;
+    margin-bottom: 10px;
+
+
+    font-family:cursive;
+    font-size: 114%;
+    color:rgb(238, 186, 184); 
+
+
+    /* background-color:rgb(107, 95, 161); */
+}
+
+nav {
+    background-color: rgb(73, 20, 20);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Trattatello, fantasy;
+    font-size: 30px;
+    height: 55px;
+    border-color:rgb(129, 202, 193);
+    border-width: 10px;
+    border-style:groove;
+    margin-top: 10px;
+}
+
+p {
+    display: flex;
+    /* margin: 90px; */
+    min-width: 300px; 
+    max-width: 300px;;
+    text-indent: 30px;
+    padding-left: 30px;
+    /* text-align: right; */
+}  
+
+h2 {
+    font-size: 30px;
+    font-family: Optima;
+    color:rgb(185, 248, 232);
+
+    margin-left: 5%;
+
+}
+
+article {
+    /* background-color:rgb(31, 107, 43); */
+ }
+
+section {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(252, 241, 197);
+    display:flex;
+}
+
+#skills {
+    
+}
+
+#socialmedia {
+    display:flex;
+text-align: center;
+padding-left: 30%;
+margin-top:15%;
+}
+
+#socialmedia ul {
+ list-style-type:none;
+}
+
+img {
+    border: 30px solid rgb(144, 216, 206);
+    border-style:groove;
+    margin: 10%;
+    display: flex;
+}
+
+body{
+    background-color:rgb(12, 44, 63);
+}
+
+main {
+   padding: 40px 90px 40px 90px;
+
+   display:flex;
+   flex-direction: column;
+   /* margin-left: 20px;
+   margin-right: 20px; */
+
+    /* background-color:cornflowerblue; */
+}
+
+ a:link, a:visited {
+    color: beige;
+}
+
+figcaption {
+padding: 2%;
+text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(73, 20, 20);
+    border: 3px solid rgb(144, 216, 206);
+    border-style:groove;
+}

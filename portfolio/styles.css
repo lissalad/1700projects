@@ -1,0 +1,109 @@
+header {
+    font-size: 150%;
+    display: flex;
+    font-family: Luminari, fantasy;
+    color: rgb(228, 221, 181);
+    background-color:#811818;
+    letter-spacing: 5px;
+    /* width: 100%; */
+    padding: 0 0 0 10%;
+}
+
+small {
+    font-size: 120%;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(179, 223, 220);
+    background-color:#811818;
+    /* width: 100%; */
+    padding: 0 0 2% 30%;
+    margin-bottom: 2%;
+    margin-top: -20px; 
+    /* min-width:20px;  */
+}
+
+  p {
+}  
+
+h2{
+    font-size: 30px;
+    font-family: Georgia, serif;
+    color:rgb(185, 248, 232);
+    /* text-indent:5%; */
+    /* padding: 0 10% 0 10%; */
+    text-decoration:underline;
+    /* background-color: rgb(199, 185, 185); */
+}
+
+section {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:cornsilk;
+    margin-bottom: 30%;
+    /* border-width: 2px;
+    border-style: groove; */
+    /* max-width: 90%; */
+    /* background-color:darkseagreen; */
+}
+
+#aboutme {
+    text-align: right;
+}
+
+#socialmedia {
+    text-align: center;
+}
+
+#socialmedia ul {
+    list-style-type: none;
+    margin-left: -5%;
+}
+
+/* #socialmedia h2 {
+
+} */
+
+body{
+    background-color:rgb(34, 117, 117);
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    /* margin: 5% 0 5% 0; */
+    padding: 0% 10% 0% 10%;
+    border-style: groove;
+    border-width: 2px;
+
+
+    margin: 10%;
+    /* background-color:darkmagenta; */
+    
+}
+
+nav {
+    background-color: rgb(179, 117, 135);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    font-family: Trattatello, fantasy;
+    font-size: 30px;
+    height: 55px;
+    border-color:rgb(220, 231, 114);
+    border-width: 10px;
+    border-style:groove;
+}
+
+ a:link, a:visited {
+    color: beige;
+}
+
+figcaption {
+    margin-top: 2%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(179, 117, 135)};

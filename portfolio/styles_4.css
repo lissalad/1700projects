@@ -1,0 +1,140 @@
+header {
+    font-size: 150%;
+    padding: 0 1% 0 1%;  
+    margin:1em;
+    width: 40%;
+    height: fit-content;
+
+    font-family: Optima;
+    color: pink;
+    text-align:center;
+
+    background-color:rgb(40, 93, 105);
+    border: beige 13px groove;
+}
+
+small {
+    display:flex;
+    margin-left: 3em;
+
+    font-family:cursive;
+    font-size: 114%;
+    color:rgb(238, 186, 184); 
+
+
+    /* background-color:rgb(107, 95, 161); */
+}
+
+nav {
+    display: flexbox;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    float:right;
+    margin: -205px 0 0 0;  
+
+    /* font-size: 150%;
+    padding: 0 1% 0 1%;  
+    margin: -200px 0 0 0;  
+    width: 40%;
+    /* height: fit-content; */
+    position: relative;
+    float:right; 
+
+
+    text-align: center;
+    height:fit-content;
+    width:fit-content;
+    padding: 0 10px 0 10px;  
+    
+
+    font-family: Trattatello, fantasy;
+    font-size: 25px;
+    background-color: rgb(73, 20, 20);
+    border-color:rgb(129, 202, 193);
+    border-width: 10px;
+    border-style:groove;
+}
+
+
+
+p {
+    display: flex;
+    /* margin: 90px; */
+    min-width: 300px; 
+    max-width: 300px;;
+    text-indent: 30px;
+    padding-left: 30px;
+    /* text-align: right; */
+}  
+
+h2 {
+    font-size: 30px;
+    font-family: Optima;
+    color:rgb(185, 248, 232);
+
+    margin-left: 5%;
+
+}
+
+
+section {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(252, 241, 197);
+    display:flex;
+    margin-bottom: 13%;
+}
+
+#skills {
+    padding: 6% 0 0 25%;
+    /* display:flex;
+    position:relative;
+    float: center;
+    flex-direction: column; */
+}
+
+#socialmedia {
+    display:flex;
+text-align: center;
+padding-left: 30%;
+margin-top:15%;
+}
+
+#socialmedia ul {
+ list-style-type:none;
+}
+
+img {
+    border: 30px solid rgb(144, 216, 206);
+    border-style:groove;
+    margin: 10%;
+    display: flex;
+}
+
+body{
+    background-color:rgb(12, 44, 63);
+}
+
+figure {
+    align-self: center;
+}
+
+main {
+   display:flexbox;
+   flex-direction: column;
+   margin-left: 8%;
+}
+
+
+
+ a:link, a:visited {
+    color: beige;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(73, 20, 20);
+    border: 3px solid rgb(144, 216, 206);
+    border-style:groove;
+    padding: 0 100% 0 100%;
+}
