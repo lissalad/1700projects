@@ -1,0 +1,113 @@
+body {
+    background-color:rgb(24, 6, 45);
+    margin:0;
+    overflow-x: hidden;
+    color: ivory;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: rgba(34, 34, 30, 0.616);
+    position:fixed;
+    width: 100%;
+}
+
+header h1 a {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(218, 140, 24);
+    font-size: 30px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 2em;
+    margin-top:0;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+nav ul li a{
+    display: flex;
+    font-size:.8em;
+    font-weight: bolder;
+    color: rgb(35, 226, 35);
+    width: 100%;
+    margin-right: 30px;
+}
+
+#banner {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 { 
+    display: flex;
+    justify-content: start;
+    text-align:left;
+    font-size: 5.5em;
+    margin-right:1%;
+    padding-top: 75px;
+}
+
+#banner p {
+    font-size: 1.5em;
+    margin:14% 9% 0 9%;
+    text-align: center;
+}
+
+.killer-gallery {
+    display:grid;
+    grid-template-columns: 3 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "a b c";
+}
+
+#ghostface {
+    grid-area: a;
+}
+
+#pinhead {
+    grid-area: b;
+}
+
+#test {
+    grid-area: c;
+}
+
+
+
+
+
+
+
+
+
+
+
+section {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+
+img {
+    border: 13px black double;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
