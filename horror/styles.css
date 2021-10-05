@@ -166,6 +166,22 @@ h2 {
     text-align: right;
 }
 
+#houses h3 {
+    margin-top: -45px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+#houses .right{
+    text-align: right;
+}
+
+#houses .left{
+    text-align: left;
+}
+
+
+
 footer {
     margin-top: 100px;
     margin-bottom: 60px;
@@ -221,9 +237,10 @@ footer button {
     justify-content: space-between;
     margin: 60px; */
 
-    align-items: center;
+    align-items:flex-end;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    margin-bottom: 50px;
 }
 
 #gallery p {
@@ -231,7 +248,10 @@ footer button {
     /* margin:14% 9% 0 9%; */
     text-align: center;
     flex-direction: column;
+}
 
+#gallery {
+    padding-top: 60px;
 }
 
 #houses img {
