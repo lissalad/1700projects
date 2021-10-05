@@ -137,23 +137,35 @@
 			<section id="lines">
 				<div data-aos="slide-right">
 					<h2>Iconic Lines</h2>
-						<h4>"I see dead people."</h4>
-						<p> - The Sixth Sense (1999)</p>
+						<div class="quote">
+							<h4>"I see dead people."</h4>
+							<p> - The Sixth Sense (1999)</p>
+						</div>
 
-						<h4>"Do you like scary movies?"</h4>
-						<p> - Scream (1996)</p>
+						<div class="quote">
+							<h4>"Do you like scary movies?"</h4>
+							<p> - Scream (1996)</p>
+						</div>
 
-						<h4>"Do you want to play a game?"</h4>
-						<p> - The Sixth Sense (1999)</p>
+						<div class="quote">
+							<h4>"Do you want to play a game?"</h4>
+							<p> - The Sixth Sense (1999)</p>
+						</div>
 
-						<h4>"Here's Johnny!"</h4>
-						<p> - The Shining (1980))</p>
+						<div class="quote">
+							<h4>"Here's Johnny!"</h4>
+							<p> - The Shining (1980))</p>
+						</div>
 
-						<h4>"What an excellent day for an exorcism."</h4>
-						<p> - The Exorcist (1973)</p>
+						<div class="quote">
+							<h4>"What an excellent day for an exorcism."</h4>
+							<p> - The Exorcist (1973)</p>
+						</div>
 
-						<h4>"You're gonna need a bigger boat."</h4>
-						<p> - Jaws (1975)</p>
+						<div class="quote">
+							<h4>"You're gonna need a bigger boat."</h4>
+							<p> - Jaws (1975)</p>
+						</div>
 				</div>
 			</section>
 		
@@ -169,37 +181,33 @@
 			</section>
 		
 			<footer id="your-favorite">
-				<h2>What's YOUR favorite scary movie?
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		
+				<script>
+						AOS.init();
+				</script>
 
-				</h2>
 				<form>
 					<div>
+						<h2>What's YOUR favorite scary movie?</h2>
+
 						<label>
-							<span>Name</span>
+							<span>Name: </span>
 							<input type="text">
 						</label>
-			
 						<label>
-							<span>Email</span>
+							<span>Email: </span>
 							<input type="email">
 						</label>
+					<label id="fav">
+						<span>Favorite Horror Movie</span>
+						<input type="text">
 					</div>
-					<div>
-						<label>
-							<span>Favorite Horror Movie:</span>
-							<textarea></textarea>
-						</label>
+					</label>
 						<button type="submit">Send</button>
-					</div>
 				</form>
+
 			</footer>
 		</main>
-
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		
-		<script>
-				AOS.init();
-		</script>
-
 	</body>
 </html>
