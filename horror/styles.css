@@ -1,13 +1,14 @@
 body {
-    background-color:rgb(24, 6, 45);
     margin:0;
     overflow-x: hidden;
-    color: ivory;
+    color: rgb(207, 207, 158);
     letter-spacing: 1px;
+    background-color:rgb(14, 4, 27);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
-    background-color: rgba(34, 34, 30, 0.616);
+    background-color: rgba(80, 80, 74, 0.616);
     position:fixed;
     width: 100%;
 }
@@ -27,14 +28,14 @@ header h1 a {
     margin-top:0;
 }
 
-nav ul{
+nav ul {
     display:flex;
     flex-direction: row;
     align-self: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+}
 
-nav ul li a{
+nav ul li a {
     display: flex;
     font-size:.8em;
     font-weight: bolder;
@@ -65,26 +66,126 @@ h2 {
 }
 
 .killer-gallery {
-    display:grid;
-    grid-template-columns: 3 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "a b c";
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: "a b c"
+                         "d e f"
+                         "g h i" ;
+    width: 100%;
+    height:150vh;    
+    background-position: center;
+
+}
+
+#killers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #ghostface {
+    background-size:cover;
+
+    background-image: url("images/gfknife.jpeg");
     grid-area: a;
+    justify-content:flex-end;
+
 }
 
 #pinhead {
+    background-image: url("images/pinhead.jpg");
+    background-size: cover;
     grid-area: b;
+    justify-content:flex-end;
+    text-align:right;
 }
 
-#test {
+#samara {
+    background-image: url("images/samara.jpg");
+    background-size: cover;
     grid-area: c;
+    justify-content: flex-end;
+    text-align: right;
+
+}
+
+#norman-bates {
+    background-image: url("images/normanbates.jpeg");
+    background-size: cover;
+    grid-area: d;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#pennywise {
+    background-image: url("images/pennywise.jpeg");
+    background-size: cover;
+    grid-area: e;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#chucky {
+    background-image: url("images/chucky.jpg");
+    background-size: cover;
+    grid-area: f;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#michael-myers {
+    background-image: url("images/michaelmyers.jpeg");
+    background-size: cover;
+    grid-area: g;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#leatherface {
+    background-image: url("images/leatherface.jpg");
+    background-size: cover;
+    grid-area: h;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#freddy-kreuger {
+    background-image: url("images/freddykreuger.jpeg");
+    background-size: cover;
+    grid-area: i;
+    justify-content: flex-end;
+    text-align: right;
 }
 
 
+.card {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 60px; */
 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#gallery p {
+    font-size: 1.5em;
+    /* margin:14% 9% 0 9%; */
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#houses img {
+    width:50%;
+}
+
+form {
+    display: flex;
+}
 
 
 
