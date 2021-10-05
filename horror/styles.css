@@ -52,6 +52,8 @@ nav ul li a {
 
 h2 { 
     font-size: 4.5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 #welcome h2 {
@@ -94,28 +96,49 @@ h2 {
 
 #ghostface {
     background-size:cover;
-
     background-image: url("images/gfknife.jpeg");
     grid-area: a;
-    justify-content:flex-end;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    color:white;
+}
 
+#ghostface figure {
+    margin-bottom: -2px;
 }
 
 #pinhead {
     background-image: url("images/pinhead.jpg");
     background-size: cover;
     grid-area: b;
-    justify-content:flex-end;
-    text-align:right;
+
+    text-align: left;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    color:white;
+}
+
+#pinhead figure {
+    margin-left: 20px;
 }
 
 #samara {
     background-image: url("images/samara.jpg");
     background-size: cover;
     grid-area: c;
-    justify-content: flex-end;
+   
     text-align: right;
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    color:white;
+}
 
+#samara figure {
+    margin-bottom: -2px;
 }
 
 #norman-bates {
@@ -124,22 +147,31 @@ h2 {
     grid-area: d;
     justify-content: flex-end;
     text-align: right;
+    color: white;
 }
 
 #pennywise {
     background-image: url("images/pennywise.jpeg");
     background-size: cover;
     grid-area: e;
-    justify-content: flex-end;
+    
     text-align: right;
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    color:white;
 }
 
 #chucky {
     background-image: url("images/chucky.jpg");
     background-size: cover;
     grid-area: f;
-    justify-content: flex-end;
-    text-align: right;
+   
+    text-align: left;
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color:white;
 }
 
 #michael-myers {
@@ -148,22 +180,42 @@ h2 {
     grid-area: g;
     justify-content: flex-end;
     text-align: right;
+    color: white;
 }
 
 #leatherface {
-    background-image: url("images/leatherface.jpg");
-    background-size: cover;
+    background-image: url("images/leatherface.jpeg");
+    background-size:cover;
     grid-area: h;
-    justify-content: flex-end;
-    text-align: right;
+   
+    text-align: left;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    color:rgb(255, 255, 255);
+}
+
+#leatherface figure {
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 #freddy-kreuger {
     background-image: url("images/freddykreuger.jpeg");
     background-size: cover;
     grid-area: i;
-    justify-content: flex-end;
-    text-align: right;
+
+    text-align: left;
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    color:white;
+}
+
+#freddy-kreuger figure {
+    margin-left: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 #houses h3 {
@@ -185,6 +237,10 @@ h2 {
 footer {
     margin-top: 100px;
     margin-bottom: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
 }
 
 form {
@@ -246,7 +302,6 @@ footer button {
 #gallery p {
     font-size: 1.5em;
     /* margin:14% 9% 0 9%; */
-    text-align: center;
     flex-direction: column;
 }
 
