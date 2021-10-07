@@ -1,343 +1,335 @@
 body {
-    margin:0;
-    overflow-x: hidden;
-    color: rgb(207, 207, 158);
-    letter-spacing: 1px;
-    background-color:rgb(14, 4, 27);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  color: rgb(207, 207, 158);
+  letter-spacing: 1px;
+  background-color: rgb(14, 4, 27);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
 }
 
 header {
-    background-color: rgba(80, 80, 74, 0.616);
-    position:fixed;
-    width: 100%;
+  background-color: rgba(80, 80, 74, 0.616);
+  position: fixed;
+  width: 100%;
 }
 
 header h1 a {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(218, 140, 24);
-    font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(218, 140, 24);
+  font-size: 30px;
 }
 
 #nav {
-    display: flex;
-    flex-direction: row;
-    display: flex;
-    justify-content:space-between;
-    padding-left: 2em;
-    margin-top:0;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2em;
+  margin-top: 0;
 }
 
 nav ul {
-    display:flex;
-    flex-direction: row;
-    align-self: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav ul li a {
-    display: flex;
-    font-size:.8em;
-    font-weight: bolder;
-    color: rgb(35, 226, 35);
-    width: 100%;
-    margin-right: 30px;
+  display: flex;
+  font-size: 0.8em;
+  font-weight: bolder;
+  color: rgb(35, 226, 35);
+  width: 100%;
+  margin-right: 30px;
 }
 
 #banner {
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
+  padding-top: 100px;
+
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
 }
 
-h2 { 
-    font-size: 4.5em;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+h2 {
+  font-size: 4.5em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #welcome h2 {
-    justify-content: start;
-    display: flex;
-    text-align:left;
-    padding-top: 60px;
+  justify-content: start;
+  display: flex;
+  text-align: left;
+  padding-top: 60px;
 }
 
 #banner p {
-    font-size: 1.5em;
-    margin-top:110px;
-    text-align: center;
+  font-size: 1.5em;
+  margin-top: 110px;
+  text-align: center;
 }
 
 #welcome {
-    margin-right:17px;
-
+  margin-right: 17px;
 }
 
 .killer-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    grid-template-areas: "a b c"
-                         "d e f"
-                         "g h i" ;
-    width: 100%;
-    height:150vh;    
-    background-position: center;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+  width: 100%;
+  height: 150vh;
+  background-position: center;
 }
 
 #killers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #ghostface {
-    background-size:cover;
-    background-image: url("images/gfknife.jpeg");
-    grid-area: a;
-    text-align: center;
-    display:flex;
-    justify-content:center;
-    align-items: flex-end;
-    color:white;
+  background-size: cover;
+  background-image: url("images/gfknife.jpeg");
+  grid-area: a;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
 }
 
 #ghostface figure {
-    margin-bottom: -2px;
+  margin-bottom: -2px;
 }
 
 #pinhead {
-    background-image: url("images/pinhead.jpg");
-    background-size: cover;
-    grid-area: b;
+  background-image: url("images/pinhead.jpg");
+  background-size: cover;
+  grid-area: b;
 
-    text-align: left;
-    display:flex;
-    justify-content:flex-start;
-    align-items: center;
-    color:white;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
 }
 
 #pinhead figure {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 #samara {
-    background-image: url("images/samara.jpg");
-    background-size: cover;
-    grid-area: c;
-   
-    text-align: right;
-    display:flex;
-    justify-content:flex-end;
-    align-items: flex-end;
-    color:white;
+  background-image: url("images/samara.jpg");
+  background-size: cover;
+  grid-area: c;
+
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
 }
 
 #samara figure {
-    margin-bottom: -2px;
+  margin-bottom: -2px;
 }
 
 #norman-bates {
-    background-image: url("images/normanbates.jpeg");
-    background-size: cover;
-    grid-area: d;
-    justify-content: flex-end;
-    text-align: right;
-    color: white;
+  background-image: url("images/normanbates.jpeg");
+  background-size: cover;
+  grid-area: d;
+  justify-content: flex-end;
+  text-align: right;
+  color: white;
 }
 
 #pennywise {
-    background-image: url("images/pennywise.jpeg");
-    background-size: cover;
-    grid-area: e;
-    
-    text-align: right;
-    display:flex;
-    justify-content:flex-end;
-    align-items: flex-end;
-    color:white;
+  background-image: url("images/pennywise.jpeg");
+  background-size: cover;
+  grid-area: e;
+
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
 }
 
 #chucky {
-    background-image: url("images/chucky.jpg");
-    background-size: cover;
-    grid-area: f;
-   
-    text-align: left;
-    display:flex;
-    justify-content:flex-start;
-    align-items: flex-start;
-    color:white;
+  background-image: url("images/chucky.jpg");
+  background-size: cover;
+  grid-area: f;
+
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
 }
 
 #michael-myers {
-    background-image: url("images/michaelmyers.jpeg");
-    background-size: cover;
-    grid-area: g;
-    justify-content: flex-end;
-    text-align: right;
-    color: white;
+  background-image: url("images/michaelmyers.jpeg");
+  background-size: cover;
+  grid-area: g;
+  justify-content: flex-end;
+  text-align: right;
+  color: white;
 }
 
 #leatherface {
-    background-image: url("images/leatherface.jpeg");
-    background-size:cover;
-    grid-area: h;
-   
-    text-align: left;
-    display:flex;
-    justify-content:flex-start;
-    align-items: center;
-    color:rgb(255, 255, 255);
+  background-image: url("images/leatherface.jpeg");
+  background-size: cover;
+  grid-area: h;
+
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(255, 255, 255);
 }
 
 #leatherface figure {
-    margin-bottom: 20px;
-    margin-left: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 #freddy-kreuger {
-    background-image: url("images/freddykreuger.jpeg");
-    background-size: cover;
-    grid-area: i;
+  background-image: url("images/freddykreuger.jpeg");
+  background-size: cover;
+  grid-area: i;
 
-    text-align: left;
-    display:flex;
-    justify-content:flex-start;
-    align-items: flex-start;
-    color:white;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
 }
 
 #freddy-kreuger figure {
-    margin-left: 18px;
-    margin-top: 0;
-    margin-bottom: 5px;
+  margin-left: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 #houses h3 {
-    margin-top: -45px;
-    margin-left: 200px;
-    font-size: 30px;
+  margin-top: -45px;
+  margin-left: 200px;
+  font-size: 30px;
 }
 
-#houses .right{
-    text-align: right;
+#houses .right {
+  text-align: right;
 }
 
-#houses .left{
-    text-align: left;
+#houses .left {
+  text-align: left;
 }
-
-
 
 footer {
-    margin-top: 100px;
-    margin-bottom: 60px;
-    margin-left: 25px;
-    margin-right: 25px;
-
-
+  margin-top: 300px;
+  margin-bottom: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer span {
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 label {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding-top: 40px;
 }
 
-
 footer div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+#lines h4 {
+  font-size: 30px;
+}
+
+#lines {
+  text-align: center;
 }
 
 #fav {
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 90px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
 }
 
 #fav span {
-    margin-right: 0;
-    margin-bottom: 10px;
+  margin-right: 0;
+  margin-bottom: 10px;
 }
-
 
 footer button {
-    padding: 9px 19px 9px 19px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 9px;
-    margin: 60px 0 60px 0;
+  padding: 9px 19px 9px 19px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
+  border-radius: 9px;
+  margin: 60px 0 60px 0;
 }
 
-
 .card {
-    /* display: flex;
+  /* display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 60px; */
 
-    align-items:flex-end;
-    display: flex;
-    justify-content:space-evenly;
-    margin-bottom: 50px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 
 #gallery p {
-    font-size: 1.5em;
-    /* margin:14% 9% 0 9%; */
-    flex-direction: column;
+  font-size: 1.5em;
+  /* margin:14% 9% 0 9%; */
+  flex-direction: column;
 }
 
 #gallery {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
 #houses img {
-    width:50%;
+  width: 50%;
 }
-
-
-
-
-
-
-
-
-
 
 section {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 50px;
 }
 
-
 img {
-    border: 13px black double;
+  border: 13px black double;
 }
 
 ul {
-    list-style: none;
-    
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
